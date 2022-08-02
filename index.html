@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Stefano Lambiase</title>
+    <meta name="description" content="Stefano Lambiase personal website">
+    <meta name="author" content="Stefano Lambiase">
+
+    <!-- Mobile-friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Tooltips -->
+    <!-- Production version -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Minimalist CSS -->
+    <link href="assets/css/minimalist-light-theme.css" rel="stylesheet" id="theme-link">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/cat.jpg">
+
+  </head>
+  <body>
+    <!-- User info -->
+    <header>
+      <div class="container">
+        <div class="row justify-content-lg-center" style="align-items: center;">
+          <div class="col-lg-3 text-center">
+            <img src="./assets/images/CVImage.jpg" class="user-image rounded-circle" alt="CV Image">
+          </div>
+          <div class="col-lg-7">
+             <!-- Switch for dark/light mode -->
+             <div class="form-check form-switch d-flex justify-content-end">
+              <input class="switch-mode form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+              <label class="form-check-label" for="flexSwitchCheckDefault">
+                Light Mode
+              </label>
+            </div>
+
+            <h2>Stefano Lambiase</h2>
+            <p class="text-justify">
+              I was born in Salerno (Italy) on July 9th 1996, and I enrolled in a Computer Science course at the University of Salerno in 2015. 
+              During these years, I improved my skills in Programming, Mathematics, Algorithms, and Software Engineering, and I obtained the (magna cum laude) <strong>Bachelor's Degree</strong> defending a thesis on <strong>Test Smell Detection and Suggestions</strong> proposed by Prof. Andrea De Lucia.
+              Also, I fell in love with Software Engineering, and I chose to begin a Master's Degree in Computer Science, curriculum <strong>Software Engineering and IT Management</strong>, at the University of Salerno in 2019.
+              I got the (magna cum laude) <strong>Master's Degree</strong> on September 30th 2021, defending a thesis regarding the human and social aspects of Software Development and Software Project Management.
+              During the work, I was supervised by Prof. Filomena Ferrucci, Prof. Fabio Palomba, and Dr. Gemma Catolino.
+            </p>
+          <div class="d-flex justify-content-end">
+            <ul class="list-inline social-icons">
+              <li class="list-inline-item"><a href="https://github.com/StefanoLambiase" target="_blank"><em class="fab fa-github"></em></a></li>
+              <li class="list-inline-item"><a href="https://www.linkedin.com/in/stefano-lambiase/" target="_blank"><em class="fab fa-linkedin-in"></em></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/stefano.lambiase7/" target="_blank"><em class="fab fa-instagram"></em></a></li>
+              <li class="list-inline-item"><a href="https://twitter.com/StefanoLambiase" target="_blank"><em class="fab fa-twitter"></em></a></li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Content -->
+    <section>
+      <!-- ./content-switch -->
+      <div class="d-flex justify-content-center">
+        <div class="list-group list-group-horizontal-md" id="content-tabs" role="tablist">
+          <a class="list-group-item small text-uppercase" id="list-about-me" data-toggle="list" href="#about-me" role="tab">About me</a>
+          <a class="list-group-item small text-uppercase active" id="list-experience-list" data-toggle="list" href="#experience" role="tab">Experience</a>
+          <a class="list-group-item small text-uppercase" id="list-projects-list" data-toggle="list" href="#publications" role="tab">Publications</a>
+          <a class="list-group-item small text-uppercase" id="list-projects-list" data-toggle="list" href="#projects" role="tab">Projects</a>
+        </div>
+      </div>
+      <!-- ./content-switch -->
+
+      <!-- ./content-body -->
+      <div class="container pt-5 tab-content">
+
+        <!-- ./about-me-panel -->
+        <div class="tab-pane fade show" id="about-me" role="tabpanel">
+          <div class="row justify-content-lg-center">
+            <div class="col-lg">
+              <div>
+                <!-- Personal-info -->
+                <h3 class="text-inside-line text-center"><span>Personal info</span></h3>
+                <div style="margin-top: 40px">
+                  <div class="row justify-content-lg-center">
+                    <div class="col text-end"><span>Name</span></div>	
+                    <div class="col text-start"><span class="text-muted">Stefano Lambiase</span></div>	
+                  </div>
+                  <div class="row justify-content-lg-center">
+                    <div class="col text-end"><span>Birthday</span></div>	
+                    <div class="col text-start"><span class="text-muted">09/07/1996</span></div>	
+                  </div>
+                  <div class="row justify-content-lg-center">
+                    <div class="col text-end"><span>Place of birth</span></div>	
+                    <div class="col text-start"><span class="text-muted">Salerno (SA)</span></div>	
+                  </div>
+                  <div class="row justify-content-lg-center">
+                    <div class="col text-end"><span>Nationality</span></div>	
+                    <div class="col text-start"><span class="text-muted">Italian</span></div>	
+                  </div>
+                </div>
+              </div>
+
+              <div style="margin-top: 70px;">
+                <!-- contact-info -->
+                <h3 class="text-inside-line text-center"><span>Contact info</span></h3>
+                <div style="margin-top: 40px">
+                  <div class="row justify-content-lg-center">
+                    <div class="col text-end"><span>E-mail</span></div>	
+                    <div class="col text-start"><span class="text-muted">stefanolambiase7@gmail.com</span></div>	
+                  </div>
+                  <div class="row justify-content-lg-center">
+                    <div class="col text-end"><span>Institutional E-mail</span></div>	
+                    <div class="col text-start"><span class="text-muted">slambiase@unisa.it</span></div>	
+                  </div>
+                </div>
+              </div>
+
+              <div style="margin-top: 70px;">
+                <!-- Research Interests -->
+                <h3 class="text-inside-line text-center"><span>Research Interests</span></h3>
+                <div style="margin-top: 40px">
+                  <div class="row justify-content-lg-center">
+                    <div class="col text-center"><span class="text-muted">Social and Human Aspects of Software Engineering</span></div>	
+                  </div>
+                  <div class="row justify-content-lg-center">
+                    <div class="col text-center"><span class="text-muted">Software Project Management</span></div>	
+                  </div>
+                  <br>
+                  <div class="row justify-content-lg-center">
+                    <div class="col text-center"><span class="text-muted">Software Bot</span></div>	
+                  </div>
+                  <br>
+                  <div class="row justify-content-lg-center">
+                    <div class="col text-center"><span class="text-muted">Software Maintenance and Evolution</span></div>	
+                  </div>
+                  <br>
+                  <div class="row justify-content-lg-center">
+                    <div class="col text-end"><span>Résumé</span></div>	
+                    <div class="col text-start"><span class="text-muted"><a class="text-muted" href="/assets/downloads/Stefano_Lambiase_CV.pdf" download>download</a></span></div>	
+                  </div>
+                </div>
+              </div>
+
+              <div style="margin-top: 70px; margin-bottom: 100px;">
+                <!-- Hobbies-info -->
+                <h3 class="text-inside-line text-center"><span>Hobbies & Interests</span></h3>
+                <div style="margin-top: 40px">
+                  <div class="row justify-content-lg-center">
+                    <ul class="list-inline h5 text-center" style="font-size: 170%">
+                      <li class="list-inline-item px-2" data-toggle="tooltip" data-placement="bottom" title="Music">🎶</li>
+                      <li class="list-inline-item px-2" data-toggle="tooltip" data-placement="bottom" title="Games">🎮</li>
+                      <li class="list-inline-item px-2" data-toggle="tooltip" data-placement="bottom" title="Computers">💻</li>
+                      <li class="list-inline-item px-2" data-toggle="tooltip" data-placement="bottom" title="Read Books">📖</li>
+                      <li class="list-inline-item px-2" data-toggle="tooltip" data-placement="bottom" title="Walk and exercise">🚶‍♂️</li>
+                      <li class="list-inline-item px-2" data-toggle="tooltip" data-placement="bottom" title="Cats">😼</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- ./experience-panel-->
+        <div class="tab-pane fade show active" id="experience" role="tabpanel">
+          <div class="row justify-content-lg-center">
+            <div class="col-lg">
+              <!-- Timeline -->
+              <div class="timeline-container">
+
+                <!-- GE Workshop -->
+                <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Social Media and Web Chair of the Third Workshop on Gender Equality, Diversity, and Inclusion in Software Engineering</h3>
+                    <span class="timeline-span">Pittsburgh, USA</span>
+                    <p class="text-muted small mb-3">2022</p>
+                    <p class="timeline-p text-justify">
+                      Member of the <strong>GE@ICSE 2022</strong> social media and web chair, an <a href="https://conf.researchr.org/home/icse-2022">ICSE 2022</a> workshop about the role, difficulties and opportunities concerning people of different gender in the field of software engineering, in research, education and industry.
+                      <br>
+                      <ul class="list-inline social-icons">
+                        <li class="list-inline-item"><a href="https://geworkshop.github.io/index.html" target="_blank"><em class="fa fa-globe"></em></a></li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div class="marker"></div>
+                </div>
+                
+                <!-- Doctor of Philosophy Start Degree -->
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Doctor of Philosophy in Computer Science Start</h3>
+                    <span class="timeline-span">University of Salerno - Software Engineering Lab (SESA)</span>
+                    <p class="text-muted small mb-3">1 November, 2019</p>
+                    <p class="timeline-p text-justify">
+                      Started my Ph.D. in Computer Science at the University of Salerno at the Software Engineering Laboratory (SESA Lab). My doctoral project is titled <strong>&ldquo;Longitudinal Data-Driven Software Project Management&rdquo;</strong> and regards the social and human aspects of Software Development and Management.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Master Degree -->
+                <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Master's Degree in Computer Science</h3>
+                    <span class="timeline-span">University of Salerno</span>
+                    <p class="text-muted small mb-3">21 September, 2019 - 30 September, 2021</p>
+                    <p class="timeline-p text-justify">
+                      Obtained the Master's Degree in Computer Science at University of Salerno with a research thesis about Social Aspects of Software Engineering called <strong>&ldquo;Cultural and Geographical Dispersion Impact on Communication and Collaboration of Software Development Teams&rdquo;</strong>.
+                    </p>
+                  </div>
+                  <div class="marker"></div>
+                </div>
+
+                <!-- Maltesque -->
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">MaLTeSQuE 2021</h3>
+                    <span class="timeline-span">Athens, Greece</span>
+                    <p class="text-muted small mb-3">23 August, 2021</p>
+                    <p class="timeline-p text-justify">
+                      Participated in the <strong>MaLTeSQuE 2021</strong> workshop, co-located with <strong>ESEC/FSE 2021</strong>, with a presentation abstract titled <strong>&ldquo;Evidence and Machine Learning based Task Allocation: A combined Approach&rdquo;</strong>.
+                      <br>
+                      <ul class="list-inline social-icons">
+                        <li class="list-inline-item"><a href="https://maltesque2021.github.io/" target="_blank"><em class="fa fa-globe"></em></a></li>
+                      </ul>   
+                    </p>
+                  </div>
+                </div>
+            
+                <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">App Challenge 2021 - VII Edition Participant</h3>
+                    <span class="timeline-span">University of Salerno</span>
+                    <p class="text-muted small mb-3">September, 2020 - February, 2021</p>
+                    <p class="timeline-p text-justify">
+                      Took part in App Challenge 2021 - VII Edition event, powered by the University of Salerno and Comune di Salerno for the <strong>Enterprise Mobile Application Development</strong> course. 
+                      <br>
+                      Worked with other two students and followed by three tutors from an external society, on a native mobile app built with:
+                      <ul style="list-style-type: none">
+                        <li><a href="https://reactnative.dev/">React Native</a></li>
+                        <li><a href="https://nativebase.io/">NativeBase</a></li>
+                        <li><a href="https://developers.google.com/nearby/messages/overview">Google Nearby Messages API</a></li>
+                        <li><a href="https://firebase.google.com/">Firebase</a></li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div class="marker"></div>
+                </div>
+
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">BiblioNet Project Manager</h3>
+                    <span class="timeline-span">University of Salerno</span>
+                    <p class="text-muted small mb-3">30 October, 2020 - 29 January, 2021</p>
+                    <p class="timeline-p text-justify">
+                      In a 3-months exam simulation, I lead a team of 8 students as Project Manager for the development of <strong>&ldquo;BiblioNet&rdquo;</strong>, a web app.
+                      <br>
+                      <ul class="list-inline social-icons">
+                        <li class="list-inline-item"><a href="https://github.com/StefanoLambiase/biblionet" target="_blank"><em class="fab fa-github"></em></a></li>
+                      </ul>                    
+                    </p>
+                  </div>
+                </div>
+
+                <div class="timeline-block timeline-block-left">
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">The DARTS Project</h3>
+                    <span class="timeline-span">SESA Lab, University of Salerno</span>
+                    <p class="text-muted small mb-3">January, 2019 - July 2020</p>
+                    <p class="timeline-p text-justify">
+                      Submitted a paper titled <strong>&ldquo;Just-In-Time Test Smell Detection and Refactoring: The DART Project&rdquo;</strong>. This paper was published at ICP '20.
+                      <br>
+                      <ul class="list-inline social-icons">
+                        <li class="list-inline-item"><a href="https://github.com/StefanoLambiase/DARTS" target="_blank"><em class="fab fa-github"></em></a></li>
+                      </ul>
+                    </p>
+                  </div>
+                  <div class="marker"></div>
+                </div>
+
+                <div class="timeline-block timeline-block-right">
+                  <div class="marker"></div>
+                  <div class="timeline-content">
+                    <h3 class="timeline-h3">Bachelor's Degree in Computer Science</h3>
+                    <span class="timeline-span">University of Salerno</span>
+                    <p class="text-muted small mb-3">15 January, 2019 - 30 May, 2019</p>
+                    <p class="timeline-p text-justify">
+                      Obtained the Bachelor's Degree in Computer Science at University of Salerno with a research thesis about Test Smell called <strong>&ldquo;Test Smell Detection and Suggestions (TESEUS)&rdquo;</strong>.
+                    </p>
+                  </div>
+                </div>
+
+              </div>
+              <!-- ./timeline -->
+            </div>
+          </div>
+        </div>
+
+        <!-- ./publications -->
+        <div class="tab-pane fade show" id="publications" role="tabpanel">
+          <!-- Force next columns to break to new line -->
+          <div class="row justify-content-lg-center">
+
+            <!-- ./publications - Cultural Dispersion Euromicro 2022 -->
+            <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title"><strong>"There and Back Again?" On the Influence of Software Community Dispersion Over Productivity</strong></h4>
+                  <h5>Proceedings of the 25th Euromicro Conference on Software Engineering and Advanced Applications (SEAA 2022)</h5>
+                  
+                  <div class="d-flex justify-content-between">
+                    <div class="p-2 align-self-center">
+                      <span class="badge bg-danger">
+                        Euromicro SEAA 2022
+                      </span>
+                      <span class="badge bg-secondary">
+                        Human and Social Aspects<br>of Software Engineering
+                      </span>
+                    </div>
+                    <div class="p-2">
+                      <button class="btn btn-publication btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
+                        Abstract
+                      </button>
+                      <button class="btn btn-publication btn-sm" type="button">
+                        <a class="download-pub" href="/assets/papers/There_and_Back_Again_Euromicro22.pdf" download>Download</a>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="collapse" id="collapse_2">
+                    <div class="card card-body">
+                      <p class="card-text">
+                        Estimating and understanding productivity still represents a crucial task for researchers and practitioners.
+                        Researchers spent significant effort identifying the factors that influence software developers' productivity, providing several approaches for analyzing and predicting such a metric.
+                        Although different works focused on evaluating the impact of human factors on productivity, little is known about the influence of cultural/geographical diversity in software development communities. 
+                        Indeed, in previous studies, researchers treated cultural aspects like an abstract concept without providing a quantitative representation. This work provides an empirical assessment of the relationship between cultural and geographical dispersion of a development community—namely, how diverse a community is in terms of cultural attitudes and geographical collocation of the members who belong to it—and its productivity.
+                        To reach our aim, we built a statistical model that contained product and socio-technical factors as independent variables to assess the correlation with productivity, i.e., the number of commits performed in a given time. Then, we ran our model considering data of 25 open-source communities on GitHub.
+                        Results of our study indicate that cultural and geographical dispersion impact productivity, thus encouraging managers and practitioners to consider such aspects during all the phases of the software development lifecycle.
+                      </p>
+                    </div>
+                  </div>
+
+                  <p class="card-text">
+                  </p>
+                  <hr>
+                  <div class="d-flex justify-content-between">
+                    <div class="p-2"></div>
+                    <div class="p-2"><strong>S. Lambiase</strong>, G. Catolino, F. Palomba, D. A. Tamburri, F. Palomba, W. J. Van Den Heuvel, F. Ferrucci</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+
+            <!-- ./publications - Cultural Dispersion ICSE 2022 -->
+            <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title"><strong>Good Fences Make Good Neighbours? On the Impact of Cultural and Geographical Dispersion on Community Smells</strong></h4>
+                  <h5>Proceedings of the 44th International Conference on Software Engineering - Software Engineering in Society (ICSE-SEIS 2022)</h5>
+                  
+                  <div class="d-flex justify-content-between">
+                    <div class="p-2 align-self-center">
+                      <span class="badge bg-danger">
+                        ICSE-SEIS 2022
+                      </span>
+                      <span class="badge bg-secondary">
+                        Human and Social Aspects<br>of Software Engineering
+                      </span>
+                    </div>
+                    <div class="p-2">
+                      <button class="btn btn-publication btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_2" aria-expanded="false" aria-controls="collapse_2">
+                        Abstract
+                      </button>
+                      <button class="btn btn-publication btn-sm" type="button">
+                        <a class="download-pub" href="/assets/papers/Good_Fences_Make_Good_Neighbours.pdf" download>Download</a>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="collapse" id="collapse_2">
+                    <div class="card card-body">
+                      <p class="card-text">
+                        Software development is de facto a social activity that often involves people from all places to join forces globally. 
+                        In such common instances, project managers must face social challenges, e.g., personality conflicts and language barriers, which often amount literally to “culture shock”. 
+                        In this paper, we seek to analyze and illustrate how cultural and geographical dispersion—that is, how much a community is diverse in terms of its members’ cultural attitudes and geographical collocation—influence the emergence of collaboration and communication problems in open-source communities, a.k.a. community smells, the socio-technical precursors of unforeseen, often nasty organizational conditions amounting collectively to the phenomenon called social debt. 
+                        We perform an extensive empirical study on cultural characteristics of GitHub developers, and build a regression model relating the two types of dispersion—cultural and geographical—with the emergence of four types of community smells, i.e., Organizational Silo, Lone Wolf, Radio Silence, and Black Cloud. Results indicate that cultural and geographical factors influence collaboration and communication within open-source communities, to an extent which incites—or even more interestingly mitigates, in some cases—community smells, e.g., Lone Wolf, in development teams. 
+                        Managers can use these findings to address their own organizational structure and tentatively diagnose any nasty phenomena related to the conditions under study.
+                      </p>
+                    </div>
+                  </div>
+
+                  <p class="card-text">
+                  </p>
+                  <hr>
+                  <div class="d-flex justify-content-between">
+                    <div class="p-2"></div>
+                    <div class="p-2"><strong>S. Lambiase</strong>, G. Catolino, D. A. Tamburri, A. Serebrenik, F. Palomba, F. Ferrucci</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+            
+            <!-- ./publications - DARTS -->
+            <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title"><strong>Just-In-Time Test Smell Detection and Refactoring: The DARTS Project</strong></h4>
+                  <h5>Proceedings of the 28th International Conference on Program Comprehension (ICPC)</h5>
+                  
+                  <div class="d-flex justify-content-between">
+                    <div class="p-2 align-self-center">
+                      <span class="badge bg-danger">
+                        ICPC 2020
+                      </span>
+                      <span class="badge bg-secondary">
+                        Maintenance
+                      </span>
+                    </div>
+                    <div class="p-2">
+                      <button class="btn btn-publication btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_1" aria-expanded="false" aria-controls="collapse_1">
+                        Abstract
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="collapse" id="collapse_1">
+                    <div class="card card-body">
+                      <p class="card-text">
+                        Test smells represent sub-optimal design or implementation solutions applied when developing test cases. Previous research has shown that these smells may decrease both maintainability and effectiveness of tests and, as such, researchers have been devising methods to automatically detect them. Nevertheless, there is still a lack of tools that developers can use within their integrated development environment to identify test smells and refactor them. In this paper, we present DARTS (Detection And Refactoring of Test Smells), an Intellij plug-in which (1) implements a state-of-the-art detection mechanism to detect instances of three test smell types, ie, General Fixture, Eager Test, and Lack of Cohesion of Test Methods, at commit-level and (2) enables their automated refactoring through the integrated APIs provided by Intellij.
+                      </p>
+                    </div>
+                  </div>
+
+                  <p class="card-text">
+                  </p>
+                  <hr>
+                  <div class="d-flex justify-content-between">
+                    <div class="p-2"></div>
+                    <div class="p-2"><strong>S. Lambiase</strong>, A. Cupito, F. Pecorelli, A. De Lucia, F. Palomba</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+
+          </div>
+        </div>
+
+        <!-- ./projects-panel-->
+        <div class="tab-pane fade show" id="projects" role="tabpanel">
+          <!-- TODO: Projects cards? Dunno. -->
+          <!-- Force next columns to break to new line -->
+          <div class="row justify-content-lg-center">
+            
+            <!-- ./project - CLOUD COMPUTING -->
+            <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Erwin Bot</h4>
+                  <p class="card-text">
+                    🤖 Chat bot for management support built with Azure Cloud Services. Produced for the Cloud Computing course of Computer Science at University of Salerno.
+                    It offers the manager the opportunity to communicate in an organized manner with the project team and, at the same time, monitor and organize the various activities under development.
+                  </p>
+                  <ul class="list-inline social-icons">
+                    <li class="list-inline-item"><a href="https://github.com/StefanoLambiase/ErwinBot" target="_blank"><em class="fab fa-github"></em></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+
+            <!-- ./project - GPS -->
+            <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">BiblioNet</h4>
+                  <p class="card-text">
+                    📕 🎓 Spring Boot Web App for library support. Produced for the Software Engineering and Software Project Management courses of Computer Science at University of Salerno.
+                  </p>
+                  <ul class="list-inline social-icons">
+                    <li class="list-inline-item"><a href="https://github.com/StefanoLambiase/biblionet" target="_blank"><em class="fab fa-github"></em></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+
+            <!-- ./project-2 -->
+            <div class="col-lg-8 pb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">DARTS</h4>
+                  <p class="card-text">
+                    <strong>DARTS (Detection And Refactoring of Test Smells)</strong> is an Intellij plug-in which (1) implements a state-of-the-art detection mechanism to detect instances of three test smell types, i.e., General Fixture, Eager Test, and Lack of Cohesion of Test Methods, at commit-level and (2) enables their automated refactoring through the integrated APIs provided by Intellij.
+                  </p>
+                  <ul class="list-inline social-icons">
+                    <li class="list-inline-item"><a href="https://github.com/StefanoLambiase/DARTS" target="_blank"><em class="fab fa-github"></em></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Force next columns to break to new line -->
+            <div class="w-100"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container text-center">
+        <p class="small">
+          This site is built with <a href="https://github.com/imgios/minimalist" target="_blank">minimalist</a>, a template built with 🖤 and <a href="https://getbootstrap.com/" target="_blank">bootstrap</a> by <a href="https://github.com/imgios">imgios</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- javaScript for dark mode -->
+    <script src="js/switchMode.js"></script>
+    <!-- javascript for tooltips -->
+    <script>
+      // Select all elements with data-toggle="tooltips" in the document
+      $('[data-toggle="tooltip"]').tooltip();
+    </script>
+  </body>
+</html>
